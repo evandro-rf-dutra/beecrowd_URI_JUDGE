@@ -14,7 +14,7 @@ var notas_100, notas_50, notas_20, notas_10,notas_5, notas_2;
 resto = parseFloat(( valor / 100 )).toFixed(2);
 
 notas_100 = Math.trunc(resto); // pegando a parte inteira
-valor = (valor - (notas_100 * 100));
+valor = (valor - (notas_100 * 100)); // esta linha pode ser substituída pelo RESTO da divisão (%)
 
 // notas 50
 resto = parseFloat(( valor / 50 )).toFixed(2);
